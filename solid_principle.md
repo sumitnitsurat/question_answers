@@ -9,15 +9,15 @@ S.O.L.I.D Stands for
     I - Interface segregation principle
     D - Dependency Inversion Principle
 
-**Single Responsibility Principle**
+** - Single Responsibility Principle**
 
     A class should have one and only one reason to change, meaning that a class should have only one job.
 
-**Open-Closed Principle**
+** - Open-Closed Principle**
 
     Objects or entities should be open for extension, but closed for modification. You should be able to add more functionality by extending the class not by modifying itself.
 
-**Liskov substituion principle**
+** - Liskov substituion principle**
 
     Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.
 
@@ -46,7 +46,7 @@ S.O.L.I.D Stands for
     public class Ostrich extends Bird{} 
     ```
 
-**Interface segregation principle**
+** - Interface segregation principle**
 
     A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
 
@@ -59,7 +59,7 @@ S.O.L.I.D Stands for
 
     square shape doesnt require volumen as its a flat shape. Segregate interfaec to two different interfaces.
 
-**Dependency Inversion principle**
+** - Dependency Inversion principle**
 
     Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
