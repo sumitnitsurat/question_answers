@@ -1,6 +1,6 @@
 1. Explain Solid Principles.
 
-```
+
 S.O.L.I.D Stands for 
 
     S - Single responsibility principle
@@ -74,4 +74,3 @@ S.O.L.I.D Stands for
     ```
 
     class depending on MySQLConnection directly. any change in DB will result in change to this class. rather use code "to interface". and create interface DBConnection with connect method and use that directly. 
-```
